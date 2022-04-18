@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>JS Basics</title>
+
+        <style>
+            h1{
+                background-color: yellowgreen;
+            }
+        </style>
+        <!-- Try not live preview a javascript -->
+
+        <script>
+        //this would be always act like java
+                console.log("Hello there from the head of document");
+                //below are some syntax
+                let x = 10;
+                for(let i = 0; i < x; i++){
+                    console.log(i);
+                }
+
+                let area = 50;    
+                let radius = Math.sqrt(area/Math.PI);
+                // console.log(math.sqrt(area/math.PI));
+                console.log(radius);
+
+                let myFormattedString = 'radius is ${radius} ';
+
+                console.log(add(1,4));
+                function add(a,b){
+                    let total = a + b;
+                    return total;
+                }
+                console.log("anything1", "anything2","yep", 123);
+
+
+                let num = number("123"); //explicitly convert datatypes
+                console.log("num is" + num);
+                
+        </script>
+
+        <!-- blank src to summon scripts Load it before processing the pagesninsn -->
+        <script src="main.js"></script>
+        <script src="other.js"></script>
+        <!-- <script async src="main.js"></script> -->
+        <!-- <script async src="other.js"></script> -->
+        <!-- async load first -->
+        
+        
+        <!--  -->
+    </head>
+    <body>
+        <h1>JS Demos</h1>
+        <p>Open console to see anything...</p>
+    </body>
+</html>
