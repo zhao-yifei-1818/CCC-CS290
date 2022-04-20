@@ -1,23 +1,10 @@
-/* p{
-    font-family: Arial, Helvetica, sans-serif;
-} */
-
-/* 
-#idname{
-    font-family: Arial;
-} */
-
-/*  
-.classname{
-    font-family:Arial;
-}
-*/
-
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:ital@1&display=swap');
 
 
-
+.nav-item{
+    font-size:large;
+   
+}
 
 body>p{
     font-family: 'Poppins',sans-serif;
@@ -25,54 +12,25 @@ body>p{
     margin:5px
     
 }
-body
-{
-    background-color:darkorchid;
-}
 
+h1{
+    font-size: xx-large;
+    text-decoration: dashed;
+}
 h2{
     font-size: larger;
     text-decoration:wavy;
+    background-color: chartreuse;
 
 }
 footer{
     text-align: right;
+    font-size: larger;
     font-family:'Times New Roman', Times;
     font-style: italic;
-    background-color: steelblue;
+    background-color: blue;
     color: aliceblue;
 }
-
-.TopLink p{
-    background-color: aliceblue;
-    font-size: large;
-    font-family:Merriweather;
-
-}
-.Topnav{
-    background-color: rgb(47, 53, 107);
-
-    overflow:visible;
-    float:inline-start;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.TopLink a:hover{
-    background-color: dimgray;
-    padding: 5px;
-    padding-left: 30%;
-    padding-right: 30%;
-    color: lightgreen;
-}
-.TopLink a.active {
-    background-color: aqua;
-    color: white;
-}
-
-
 
 .image {
         display: block;
@@ -103,35 +61,3 @@ th {background-color: antiquewhite;
     color: crimson;
 }
     
-    
-            
-
-@media screen and (min-width: 700px) {
-    body {
-      background-color: rgb(160, 214, 160);
-    }
-    .Topnav{
-        background-color: darkolivegreen;
-    }
-    .image{
-        width: 90%;
-        height: auto;
-    }
-    h2{
-        text-align: center;
-    }
-  }
-@media screen and (min-width: 1000px) {
-    body{
-      background-color: rgb(139, 139, 191);
-    }
-    body.p   {
-        background-color: rgb(144, 201, 153);
-    }
-    h2{
-        text-align: center;
-    }
-}
-
-
-
